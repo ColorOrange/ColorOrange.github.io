@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    background-color: #F8F8FF;
+    
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    margin:0;
+    width:100%;
+    background: linear-gradient(290deg,rgba(44, 19, 189, 1) 0%, rgba(0, 1, 74, 1) 100%);
+    position:fixed;
+    top:0;
+    z-index:999;
+}
+
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0;
+    padding:12.5px 10%;
+    justify-content: space-between;
+    font-family:helvetica, sans-serif;
+    font-weight:bold;
+}
+
+nav ul {
+    width:100%;
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+nav li {
+    height:50px;
+    
+}
+nav ul a{
+    height:100%;
+    padding: 0 1vw;
+    text-decoration: none;
+    color: white;
+    display:flex;
+    align-items:center;
+}
+
+nav ul a:hover{
+    background-color: #0B0035;
+    border-radius: 5px;
+
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    right:0;
+}
+
+
+
+.button-orange{
+    background-color:#FF7900;
+    padding: 10px 40px;
+    color:black;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border: black 3px solid;
+    border-radius: 5px;
+}
+.button-orange:hover{
+    background-color:#74D02C;
+    cursor: pointer;
+}
+
+.button-green{
+    background-color:#74D02C;
+    color:black;
+    padding: 10px 40px;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border: black 3px solid;
+    border-radius: 5px;
+}
+.button-green:hover{
+    background-color:#FF7900;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4, figcaption, .links, table, legend, form{
+    font-family: helvetica, "Alata", "Consolas", sans-serif;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+
+h2{
+    font-size: 2rem; 
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+h3{
+    font-size: 2rem; 
+    padding: 0 0 0 0;
+    margin: 0 10%;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+p{
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    line-height: 1.5rem;
+    
+}
+
+.box-1{
+    padding: 56px 24px;
+    background: linear-gradient(322deg,rgba(45, 0, 224, 1) 0%, rgba(232, 232, 255, 1) 15%);
+    max-width: 1070px;
+    border-radius: 5px;
+    margin: 24px auto;
+}
+
+
+
+.box-2{
+    padding: 56px 24px;
+    background: linear-gradient(41deg,rgba(45, 0, 224, 1) 0%, rgba(232, 232, 255, 1) 15%);
+    max-width: 1070px;
+    border-radius: 5px;
+    margin: 56px 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.hero{
+    text-align:center;
+    max-width: 1070px;
+    margin-top: 9rem;
+    margin-left:auto;
+    margin-right:auto;
+    position:static;
+}
+
+.call-to-action{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.call-to-action h3{
+   word-spacing: 0.7rem;
+   margin:0 4rem;
+}
+
+/*This makes the aside float on the right side of the page */
+.asidestyle{
+    margin-left:25px;
+    float:right;
+    background-color:rgb(10, 255, 2);
+    padding: 10px;
+    border-radius: 5px;
+    text-indent: 0.5rem;
+    border-color:#0B0035;
+    border-style:double;
+    border-width: 0 0 0 1rem;
+}
+
+
+
+footer p{
+    text-align:center;
+}
+
+.stores{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stores a{
+    margin: 0 2rem;
+}
+.stores h3{
+    text-align: center;
+    margin:0;
+    font-size:1.5rem;
+}
+
+.cookies{
+    text-align:center;
+    left:1vw;
+    background-color: #FF7900;
+    padding: 1rem 0.1rem;
+    z-index: 9999;
+    border-radius: 5px;
+    border: 5px #1b0086 solid;
+    max-width: 1100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.cookies > h4{
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+.cookies > h4::first-letter{
+    font-size: 2rem;
+}
+
+.cookies p{
+    font-size: 1rem;
+    padding:0;
+
+}
+
+figcaption{
+    font-size: 1.2rem;
+    position:relative;
+    left:25%;
+}
+
+.explainer{
+    width: 50%;
+    position:relative;
+    left:25%;
+}
+
+.links{
+    font-size: 2rem;
+    color:rgb(10, 255, 2);
+    background-color:#0B0035;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.links:hover{
+    color:#FF7900;
+}
+
+.links:visited{
+    color:rgb(255, 0, 204);
+}
+
+.links:link{
+    background-color:#1b0086;
+}
+
+.links:active{
+    background-color:#2100a7;
+    color:#FF7900;
+}
+
+@media(max-width: 768px){
+    .hideonmobile{
+        display:none;
+    }
+
+}
+@media(min-width: 768px){
+    .hideondesktop{
+        display:none;
+    }
+}
+
+table{
+    margin:25px 20px;
+    text-align:left;
+    font-size:1.5rem;
+    min-width:400px;
+    border: 5px solid black;
+    border-radius: 5px;
+    
+}
+table tr:nth-child(odd) {
+    background-color: #FFF;
+}
+
+table tr:nth-child(even) {
+    background-color: #CFF;
+}
+form{
+    width: fit-content;
+    margin-left:auto;
+    margin-right: auto;
+}
+fieldset{
+    margin: 2rem 10%;
+    padding: 1rem 2rem;
+    border: 5px double #000000;
+    border-radius: 5px;
+    background-color:#efebff;
+}
+
+fieldset legend{
+    font-size:2rem;
+}
+
+label, button{
+    display:block;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+}
+
+
+input, textarea{
+    padding: 0.5rem;
+    border:#0B0035 2px solid;
+    min-width: 25vw;
+}
+
+textarea{
+    min-height: 5rem;
+    min-width: 25vw;
+    padding: .5rem;
+    
+}
